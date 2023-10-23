@@ -89,6 +89,7 @@ public class Map extends JPanel {
             frame.setBounds(100, 100, 400, 200);
             frame.add(new Map());
             frame.setVisible(true);
+            frame.setVisible(false);
         });
     }
 }
