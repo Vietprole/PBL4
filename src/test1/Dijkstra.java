@@ -13,7 +13,7 @@ public class Dijkstra {
 
     public static String mydijkstra(int s, int e) throws IOException {
         int n, m;
-        Scanner inp = new Scanner(new File("D:/tai xuong/input.txt"));
+        Scanner inp = new Scanner(new File("D:/tai xuong/input2.txt"));
         n = inp.nextInt();
         m = inp.nextInt();
         for (int i = 1; i <= n; i++) {
